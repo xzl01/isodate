@@ -1,3 +1,46 @@
+isodate (0.6.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * mark package "Multi-Arch: foreign" (Closes: #893675)
+  * use new dh-sequence-python3
+  * add minimal patch to remove python3-six
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.2, no changes needed.
+
+ -- Alexandre Detiste <tchet@debian.org>  Fri, 05 Jan 2024 16:51:16 +0100
+
+isodate (0.6.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+
+  [ Michael R. Crusoe ]
+  * Standards-Version: 4.6.0 (routine-update)
+  * Point Vcs fields to salsa.debian.org (routine-update)
+  * Add salsa-ci file (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+  * watch file standard 4 (routine-update)
+  * d/control: Update homepage
+  * New upstream release. Closes: #1002349
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Mon, 27 Dec 2021 18:25:39 +0100
+
 isodate (0.6.0-2) sid; urgency=medium
 
   * debian/control
